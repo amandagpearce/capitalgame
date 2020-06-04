@@ -1,0 +1,142 @@
+
+    	body {
+    		background: #5C258D;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			font-family: tahoma;
+    	}
+    	.container {
+			width: 100%;
+			max-width: 768px;
+			margin: 0 auto;
+			display: table;
+			text-align: center;
+    	}	
+    	h1 {
+    		margin-bottom:0;
+			color: #5aff46;
+			font-weight: lighter;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			font-size: 20px;
+    	}
+    	.hide{
+    		display: none!important;
+    	}
+    	#load {
+		    border: none;
+		    text-transform: uppercase;
+		    background: transparent;
+		    border: 1px solid #fff;
+		    color: #fff;
+		    padding: 10px 40px;
+		    margin: 16px;
+		    text-decoration: none;
+		    border-radius: 24px;
+		    transition: all 0.5s ease;
+		}
+		#load:hover{
+			color: #515196;
+			background: #fff;
+			cursor:pointer;
+		}
+		#question {
+		    color: #9fd3ec;
+		    font-weight: lighter;
+		    margin-bottom: 5px;
+		}
+		ul {
+		    padding: 0;
+		    list-style: none;
+		}
+		li {
+		    width: 100%;
+		    float: none;
+		    margin-bottom: 15px;
+		}
+		li a {
+		    width: 90%;
+		    display: block;
+		    margin: 0 auto;
+		    color: #fff;
+		    text-decoration: none;
+		    letter-spacing: 1px;
+		    font-size: 17px;
+		    border: 1px solid #fff;
+		    border-radius: 30px;
+		    padding: 5px 0;
+		    transition: all 0.5s ease;
+		}
+		li a:active,
+		li a.active,
+		li a:hover{
+			text-decoration: none;
+			color:#515196;
+			background: #fff;
+		}
+		#heart-block{
+		    clear: both;
+		    float: none;
+		    margin: 0 auto;
+		    display: table;
+		}
+		#heart-block div {
+		    float: left;
+		    color: #e20049;
+		    margin: 1px;
+		    transition: all 1s ease;
+		}
+		#heart-block div.grey {
+			color:#969293;
+		}
+
+		#output {
+			display: table;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 18px;	
+		}
+		#output h3 {
+		    margin-top: 10px;
+		    font-size: 15px;
+		    color: #583490;
+		    text-transform: uppercase;
+		    letter-spacing: 3px;
+		    background: #95d3ec;
+		    margin-bottom: 0;
+		}
+		#output h4 {
+    		letter-spacing: 2px;
+    		color:#fff;
+    		margin-bottom: 0;
+		}
+		#output h4.blink {
+			animation:blinkingText .9s infinite;
+			margin-top: 0;
+		}
+		@keyframes blinkingText{
+		    0%{ 
+		    	color: #fff;
+		    }
+		    49%{    
+		    	color: #fff; 
+		    }
+		    60%{    
+		    	color: transparent; 
+		    }
+		    99%{    
+		    	color:transparent;  
+		    }
+		    100%{   
+		    	color: #fff;    
+		    }
+		}
+    
+
+    @media screen and (min-width: 768px) {
+			  li {
+			    width: 50%;
+			    float: left;
+			}
+		}

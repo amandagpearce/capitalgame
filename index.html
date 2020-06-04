@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess the capital</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Guess the capital</h1>
+		
+		<input type="button" id="load" value="Start" />
+		
+		<div class="game-container">
+			<div class="overlay"></div>
+			<h3 class="hide" id="question">Whats the capital of <span></span>?</h3>
+			
+			<div id="heart-block" class="hide">
+			  <div>&#10084;</div>
+			  <div>&#10084;</div>
+			  <div>&#10084;</div>
+			</div>
+			
+			<ul id="options"></ul>
+		</div>
+		
+		<div id="output">
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+
+	
+</body>
