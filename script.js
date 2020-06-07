@@ -87,7 +87,7 @@
      		event.target.classList.add('active');
 	     	var guess = event.target.dataset.value;
 	     	var output = document.getElementById('output');
-	     	var hearts = document.querySelectorAll('#heart-block > div');
+	     	var hearts = document.querySelectorAll('#heart-block > div span');
 	     	
 	     	
 	     	if(guess==capital){
@@ -100,7 +100,7 @@
 	     		flag--;
 	     		hearts[flag].classList.add('grey');
 	     		if(flag==0){
-	     			if(rightGuesses>1){
+	     			if(rightGuesses==1){
 	     				output.innerHTML += "<h3>You got "+rightGuesses+" capital right</h3>"
 	     			}
 	     			else{

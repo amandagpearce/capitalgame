@@ -80,6 +80,7 @@
 		    float: none;
 		    margin: 0 auto;
 		    display: table;
+		    margin-bottom: 10px;
 		}
 		#heart-block div {
 		    float: left;
@@ -87,7 +88,7 @@
 		    margin: 1px;
 		    transition: all 1s ease;
 		}
-		#heart-block div.grey {
+		#heart-block div span.grey {
 			color:#969293;
 		}
 
