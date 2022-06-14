@@ -70,8 +70,8 @@ let pickRandomCountry = () => {
   let country = "";
 
   randomPick = Math.floor(Math.random() * countriesObj.length);
-  console.log('randomPick', randomPick);
-  console.log('countriesObj[randomPick]', countriesObj[randomPick].name.common, countriesObj[randomPick].capital);
+  //console.log('randomPick', randomPick);
+  //console.log('countriesObj[randomPick]', countriesObj[randomPick].name.common, countriesObj[randomPick].capital);
   country = countriesObj[randomPick].name.common;
   capital = countriesObj[randomPick].capital ? countriesObj[randomPick].capital : null;
   
